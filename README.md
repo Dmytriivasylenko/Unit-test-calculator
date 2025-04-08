@@ -1,19 +1,20 @@
-# Unit Tested Calculator (Python)
+# Unit-Tested Calculator (Java)
 
-A TDD (Test-Driven Development) implementation of a calculator with comprehensive unit tests.
+A Test-Driven Development (TDD) calculator implementation with JUnit 5 tests.
 
 ## Features
-- ➕ Basic operations (add, subtract, multiply, divide)
-- ✅ 100% test coverage with `unittest`
-- 🧪 Example-based and parameterized tests
-- 🚫 Error handling for edge cases (division by zero)
+- ➕ Basic operations (add, subtract, multiply, divide)  
+- ✅ 100% test coverage with JUnit 5  
+- 🧪 Parameterized tests for edge cases  
+- 🚫 Robust error handling (e.g., division by zero)  
 
-## Tech Stack
-- Python 3.8+
-- `unittest` framework
+## Tech Stack  
+- Java 11+  
+- JUnit 5  
+- Maven (lub Gradle - w zależności od tego, czego używasz)  
 
-## Installation
+## How to Run  
 ```bash
-git clone https://github.com/Dmytriivasylenko/Unit-test-calculator.git
-cd Unit-test-calculator
-python -m unittest discover
+mvn test
+# lub dla Gradle:
+./gradlew test
